@@ -3,7 +3,7 @@ services:
   fantom:
     build:
       args:
-        VERSION: release/1.0.0-rc.2
+        VERSION: release/1.0.0-rc.4
       context: ./build/fantom
       dockerfile: Dockerfile
     volumes:
