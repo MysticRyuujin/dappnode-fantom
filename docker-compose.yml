@@ -9,10 +9,10 @@ services:
     volumes:
       - "fantom:/datadir"
     ports:
-      - "11545:8545"
-      - "11546:8546"
-      - "41303:30303"
-      - "41303:30303/udp"
+      - "18545:18545"
+      - "18546:18546"
+      - "5050:5050"
+      - "5050:5050/udp"
     restart: unless-stopped
     image: "fantom.public.dappnode.eth:0.1.0"
 volumes:

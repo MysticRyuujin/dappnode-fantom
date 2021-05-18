@@ -15,18 +15,18 @@ fi
 
 opera \
     --genesis=/datadir/mainnet.g
-    --port=30303 \
+    --port=5050 \
     --maxpeers=200 \
     --datadir=/datadir \
     --http \
     --http.addr=0.0.0.0 \
-    --http.port=8545 \
+    --http.port=18545 \
     --http.api=ftm,eth,debug,admin,web3,personal,net,txpool,sfc \
     --http.corsdomain="*" \
     --http.vhosts="*" \
     --ws \
     --ws.addr=0.0.0.0 \
-    --ws.port=8546 \
+    --ws.port=18546 \
     --ws.api=ftm,eth,debug,admin,web3,personal,net,txpool,sfc \
     --ws.origins="*" \
     --nousb

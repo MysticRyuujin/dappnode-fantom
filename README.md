@@ -1,4 +1,4 @@
-# Polygon Node DAppNode package
+# Fantom Node DAppNode package
 
 You can use this package without installing it in your DAppNode following these instructions:
 
@@ -40,7 +40,7 @@ You can use this package without installing it in your DAppNode following these 
 
 You can edit the `docker-compose.yml` and add extra options, such as:
 ```
- <TODO:// list all Polygon options>
+ <TODO:// list all Fantom options>
 ```
 
 ## License
