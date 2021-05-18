@@ -10,7 +10,7 @@ if [ ! -f "$FANTOM_HOME/mainnet.g" ];
 then
     cd $FANTOM_HOME
     echo "downloading launch genesis file"
-    wget https://opera.fantom.network/mainnet.g
+    wget --quiet https://opera.fantom.network/mainnet.g
 fi
 
 opera \
