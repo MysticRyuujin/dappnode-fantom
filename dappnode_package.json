@@ -1,0 +1,31 @@
+{
+  "name": "fantom.public.dappnode.eth",
+  "version": "0.1.0",
+  "description": "",
+  "type": "service",
+  "author": "MysticRyuujin (https://github.com/MysticRyuujin)",
+  "contributors": [
+    "androolloyd <opensource@andrewredden.com> (https://github.com/androolloyd)",
+    "Fantom-foundation (https://github.com/Fantom-foundation)"
+  ],
+  "categories": [
+    "Developer tools", "Blockchain", "Communications"
+  ],
+  "keywords": [
+    "fantom", "opera"
+  ],
+  "globalEnvs": {
+    "all": true
+  },
+  "backup": [
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/androolloyd/dappnode-golem-node"
+  },
+  "links": {
+    "homepage": "https://fantom.foundation/",
+    "gateway": "http://fantom.public.dappnode:56657"
+  },
+  "license": "GPL v3"
+}
