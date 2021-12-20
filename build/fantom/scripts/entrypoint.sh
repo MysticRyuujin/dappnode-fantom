@@ -14,7 +14,7 @@ then
 fi
 
 opera \
-    --genesis=/datadir/mainnet.g
+    --genesis=/datadir/mainnet.g \
     --port=5050 \
     --maxpeers=200 \
     --datadir=/datadir \
